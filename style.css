@@ -19,14 +19,14 @@
 
 .logo{
     
-    right: 5px;
-    top: 3px;
+    left: 25px;
+    top: 7px;
     position: absolute;
     
 }
 
 .logo img {
-    height: 80px;
+    height: 120px;
     padding: 0;
     
 }
