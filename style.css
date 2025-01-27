@@ -8,7 +8,7 @@
 
 /* Background and Page Layout */
 .background {
-    background: url('background1.jpg') no-repeat center center/cover;
+    background: url('background.jpg') no-repeat center center/cover;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -19,14 +19,14 @@
 
 .logo{
     
-    left: 25px;
-    top: 7px;
+    right: 5px;
+    top: 3px;
     position: absolute;
     
 }
 
 .logo img {
-    height: 100px;
+    height: 80px;
     padding: 0;
     
 }
@@ -40,7 +40,7 @@
     align-items: center;
     position: absolute;
     top: 10px;
-    right: 70px;
+    right: 170px;
     z-index: 10;
 }
 
