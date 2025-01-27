@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const teamMembers = [
         {
-            name: "John Doe",
+            name: "Ayush",
             age: 30,
             id: "12345",
             email: "john.doe@example.com",
