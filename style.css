@@ -65,14 +65,14 @@
 .content {
     color:rgba(253, 251, 251, 0.881); 
     text-align: center;
-    margin-left: 550px;
+    margin-left: 600px;
    padding:20px ;
     
 }
 
 /* Content Box */
 .content-box {
-    background-color: rgba(255, 255, 255, 0.973);
+    background-color: rgba(255, 255, 255, 0.512);
     padding: 30px;
     border-radius: 10px;
     max-width: 600px;
