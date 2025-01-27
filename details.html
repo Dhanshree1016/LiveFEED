@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Member Details</title>
+    <link rel="stylesheet" href="style_details.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+        <a href="logout.html">Logout</a>
+    </div>
+
+    <div class="container">
+        <h1>Team Member Details</h1>
+
+        <div id="member-details">
+            <!-- Member details will be dynamically added here -->
+        </div>
+
+        <hr>
+
+        <div class="info-container">
+            <div class="info-box" id="gps">
+                <h2>GPS</h2>
+                <p id="gps-info"></p>
+            </div>
+            <div class="info-box" id="heart-rate">
+                <h2>Heart Rate Monitoring</h2>
+                <p id="heart-rate-info"></p>
+            </div>
+            <div class="info-box" id="body-temperature">
+                <h2>Body Temperature</h2>
+                <p id="body-temperature-info"></p>
+            </div>
+        </div>
+
+        <div class="info-container">
+            <div class="info-box" id="accelerometer">
+                <h2>Accelerometer</h2>
+                <p id="accelerometer-info"></p>
+            </div>
+        
+            <div class="info-box" id="object-detection">
+                <h2>Object Detection</h2>
+                <p id="object-detection-info"></p>
+            </div>
+        
+
+        
+            <div class="info-box" id="pressure-sensor">
+                <h2>Pressure Sensor</h2>
+                <p id="pressure-sensor-info"></p>
+            </div>
+        </div>
+        <div class="right-box">
+            <h3>Pressure Sensor</h3>
+            <p>This is the new box on the right side.</p>
+        </div>
+        
+        <div class="right-box">
+            <h3>Live Feed</h3>
+            <p>This is the new box on the right side.</p>
+            
+                <h3>Live Feed</h3>
+                <iframe 
+                    width="100%" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/YWY6T83daGY?si=ZqNeZxonKGxF4ql1?autoplay=1&mute=1" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            
+        </div>
+        
+    
+    <script src="details_script.js"></script>
+</body>
+</html>
