@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const teamMembers = [
         {
-            name: "Ayush",
+            name: "Ayush Walzade",
             age: 30,
             id: "2001",
             email: "ayush@gmail.com",
@@ -21,10 +21,10 @@ document.addEventListener("DOMContentLoaded", () => {
             pressureSensor: "1013 hPa"
         },
         {
-            name: "Kunal",
+            name: "Kunal Deharkar",
             age: 28,
-            id: "67890",
-            email: "jane.smith@example.com",
+            id: "2002",
+            email: "kunal@gmail.com",
             mobile: "8765432109",
             photo: "profile-placeholder.png",
             position: "Soldier",
@@ -38,10 +38,10 @@ document.addEventListener("DOMContentLoaded", () => {
             pressureSensor: "1010 hPa"
         },
         {
-            name: "Alice Johnson",
+            name: "Sumit Kotme",
             age: 25,
-            id: "11223",
-            email: "alice.johnson@example.com",
+            id: "2003",
+            email: "sumit@gmail.com",
             mobile: "9123456789",
             photo: "profile-placeholder.png",
             position: "Commander",
@@ -55,10 +55,10 @@ document.addEventListener("DOMContentLoaded", () => {
             pressureSensor: "1012 hPa"
         },
         {
-            name: "Bob Brown",
+            name: "Jay Singh",
             age: 35,
-            id: "33445",
-            email: "bob.brown@example.com",
+            id: "2004",
+            email: "jay@gmail.com",
             mobile: "9876123456",
             photo: "profile-placeholder.png",
             position: "Technician",
@@ -72,12 +72,12 @@ document.addEventListener("DOMContentLoaded", () => {
             pressureSensor: "1011 hPa"
         },
         {
-            name: "Emma Davis",
+            name: "Raj Malhotra",
             age: 29,
-            id: "55678",
-            email: "emma.davis@example.com",
+            id: "2005",
+            email: "raj@gmail.com",
             mobile: "9654321098",
-            photo: "profile-placeholder.png",
+            photo: "raj_malhotra.jpg",
             position: "Soldier",
             height: "5'8\"",
             weight: "72kg",
