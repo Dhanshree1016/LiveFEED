@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", () => {
             id: "2005",
             email: "raj@gmail.com",
             mobile: "9654321098",
-            photo: "raj_malhotra.jpg",
+            photo: "profile-placeholder.png",
             position: "Soldier",
             height: "5'8\"",
             weight: "72kg",
@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (member) {
         // Display member details
         document.getElementById("member-details").innerHTML = `
-            <img src="${'raj_malhotra.jpg'}" alt="${member.name}" class="profile-photo">
+            <img src="${'person.jpeg'}" alt="${member.name}" class="profile-photo">
             <h2>${member.name}</h2>
             <p><strong>Position:</strong> ${member.position}</p>
             <p><strong>ID:</strong> ${member.id}</p>
