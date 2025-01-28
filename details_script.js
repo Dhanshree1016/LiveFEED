@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (member) {
         // Display member details
         document.getElementById("member-details").innerHTML = `
-            <img src="${'person.jpg'}" alt="${member.name}" class="profile-photo">
+            <img src="${'raj_malhotra.jpg'}" alt="${member.name}" class="profile-photo">
             <h2>${member.name}</h2>
             <p><strong>Position:</strong> ${member.position}</p>
             <p><strong>ID:</strong> ${member.id}</p>
