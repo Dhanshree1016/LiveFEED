@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
             position: "Soldier",
             height: "5'10\"",
             weight: "70kg",
-            gps: "latitude",
+            gps: "Latitude: 45.4215, Longitude: -75.6972",
             heartRate: "72 bpm",
             bodyTemperature: "98.6°F",
             accelerometer: "Movement detected",
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
             position: "Soldier",
             height: "5'6\"",
             weight: "60kg",
-            gps: "latitude",
+            gps: "Latitude: 45.5285, Longitude: -75.6912",
             heartRate: "75 bpm",
             bodyTemperature: "99.0°F",
             accelerometer: "Still",
@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
             position: "Commander",
             height: "6'0\"",
             weight: "80kg",
-            gps: "latitude",
+            gps: "Latitude: 45.4000, Longitude: -75.7000",
             heartRate: "70 bpm",
             bodyTemperature: "98.7°F",
             accelerometer: "Movement detected",
@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
             position: "Technician",
             height: "5'7\"",
             weight: "65kg",
-            gps: "latitude",
+            gps: "Latitude: 45.4300, Longitude: -75.7100",
             heartRate: "68 bpm",
             bodyTemperature: "98.9°F",
             accelerometer: "Still",
@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", () => {
             position: "Soldier",
             height: "5'8\"",
             weight: "72kg",
-            gps: "latitude",
+            gps: "Latitude: 45.4500, Longitude: -75.7200",
             heartRate: "80 bpm",
             bodyTemperature: "98.5°F",
             accelerometer: "Movement detected",
@@ -103,10 +103,6 @@ document.addEventListener("DOMContentLoaded", () => {
             <p><strong>Height:</strong> ${member.height}</p>
             <p><strong>Weight:</strong> ${member.weight}</p>
         `;
-        document.getElementById("gps-info").innerHTML = `
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.5708142483163!2d74.49227367468532!3d19.900336725578438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdc4474a245d261%3A0x806a6b9889186a80!2sSanjivani%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1738050648041!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        `;
-
 
         // Fill in the other info boxes
         document.getElementById("gps-info").innerText = member.gps;
