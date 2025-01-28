@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
         
         memberDiv.innerHTML = `
             <a href="details.html?memberId=${member.id}" style="text-decoration: none; color: inherit;">
-                <img src="${'person.jpg'}" alt="${member.name}" class="profile-photo">
+                <img src="${'person.jpeg'}" alt="${member.name}" class="profile-photo">
                 <div class="team-details">
                     <p><span>Name:</span> ${member.name}</p>
                     <p><span>Age:</span> ${member.age}</p>
