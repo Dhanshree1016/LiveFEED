@@ -6,8 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             name: "Ayush",
             age: 30,
-            id: "12345",
-            email: "john.doe@example.com",
+            id: "2001",
+            email: "ayush@gmail.com",
             mobile: "9876543210",
             photo: "profile-placeholder.png",
             position: "Soldier",
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
             pressureSensor: "1013 hPa"
         },
         {
-            name: "Jane Smith",
+            name: "Kunal",
             age: 28,
             id: "67890",
             email: "jane.smith@example.com",

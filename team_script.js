@@ -4,42 +4,42 @@ document.addEventListener("DOMContentLoaded", () => {
     // Data for team members
     const teamMembers = [
         {
-            name: "John Doe",
+            name: "Ayush Walzade",
             age: 30,
-            id: "12345",
-            email: "john.doe@example.com",
+            id: "2001",
+            email: "ayush@gmail.com",
             mobile: "9876543210",
             photo: "person1.jpg" // Replace with actual image path
         },
         {
-            name: "Jane Smith",
+            name: "Kunal Deharkar",
             age: 28,
-            id: "67890",
-            email: "jane.smith@example.com",
+            id: "2002",
+            email: "kunal@gmail.com",
             mobile: "8765432109",
             photo: "person2.jpg" // Replace with actual image path
         },
         {
-            name: "Alice Johnson",
+            name: "Sumit Kotme",
             age: 25,
-            id: "11223",
-            email: "alice.johnson@example.com",
+            id: "2003",
+            email: "sumit@gmail.com",
             mobile: "9123456789",
             photo: "person3.jpg" // Replace with actual image path
         },
         {
-            name: "Bob Brown",
+            name: "Jay Singh",
             age: 35,
-            id: "33445",
-            email: "bob.brown@example.com",
+            id: "2004",
+            email: "jay@gmail.com",
             mobile: "9234567890",
             photo: "person4.jpg" // Replace with actual image path
         },
         {
-            name: "Emma Davis",
+            name: "Raj Malhotra",
             age: 29,
-            id: "55678",
-            email: "emma.davis@example.com",
+            id: "2005",
+            email: "raj@gmail.com",
             mobile: "9345678901",
             photo: "person5.jpg" // Replace with actual image path
         }
