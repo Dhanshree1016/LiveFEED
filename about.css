@@ -7,7 +7,15 @@
 }
 
 /* Navbar */
-
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+   
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
 
 .navbar a {
     text-decoration: none;
