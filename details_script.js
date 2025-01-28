@@ -104,15 +104,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <p><strong>Weight:</strong> ${member.weight}</p>
         `;
         document.getElementById("gps-info").innerHTML = `
-            <iframe
-                width="100%"
-                height="400"
-                style="border:0"
-                loading="lazy"
-                allowfullscreen
-                referrerpolicy="no-referrer-when-downgrade"
-                src="https://www.google.com/maps/embed/v1/view?key=YOUR_API_KEY&center=${member.gps.lat},${member.gps.lng}&zoom=14">
-            </iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.5708142483163!2d74.49227367468532!3d19.900336725578438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdc4474a245d261%3A0x806a6b9889186a80!2sSanjivani%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1738050648041!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         `;
 
 
