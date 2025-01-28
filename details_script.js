@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
             position: "Soldier",
             height: "5'10\"",
             weight: "70kg",
-            gps: "https://maps.app.goo.gl/6SoLardDoovQjs7u8",
+            gps: "latitude",
             heartRate: "72 bpm",
             bodyTemperature: "98.6°F",
             accelerometer: "Movement detected",
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
             position: "Soldier",
             height: "5'6\"",
             weight: "60kg",
-            gps: "https://maps.app.goo.gl/6SoLardDoovQjs7u8",
+            gps: "latitude",
             heartRate: "75 bpm",
             bodyTemperature: "99.0°F",
             accelerometer: "Still",
@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
             position: "Commander",
             height: "6'0\"",
             weight: "80kg",
-            gps: "https://maps.app.goo.gl/6SoLardDoovQjs7u8",
+            gps: "latitude",
             heartRate: "70 bpm",
             bodyTemperature: "98.7°F",
             accelerometer: "Movement detected",
@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
             position: "Technician",
             height: "5'7\"",
             weight: "65kg",
-            gps: "https://maps.app.goo.gl/6SoLardDoovQjs7u8",
+            gps: "latitude",
             heartRate: "68 bpm",
             bodyTemperature: "98.9°F",
             accelerometer: "Still",
@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", () => {
             position: "Soldier",
             height: "5'8\"",
             weight: "72kg",
-            gps: "https://maps.app.goo.gl/6SoLardDoovQjs7u8",
+            gps: "latitude",
             heartRate: "80 bpm",
             bodyTemperature: "98.5°F",
             accelerometer: "Movement detected",
@@ -103,6 +103,18 @@ document.addEventListener("DOMContentLoaded", () => {
             <p><strong>Height:</strong> ${member.height}</p>
             <p><strong>Weight:</strong> ${member.weight}</p>
         `;
+        document.getElementById("gps-info").innerHTML = `
+            <iframe
+                width="100%"
+                height="400"
+                style="border:0"
+                loading="lazy"
+                allowfullscreen
+                referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps/embed/v1/view?key=YOUR_API_KEY&center=${member.gps.lat},${member.gps.lng}&zoom=14">
+            </iframe>
+        `;
+
 
         // Fill in the other info boxes
         document.getElementById("gps-info").innerText = member.gps;
