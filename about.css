@@ -10,7 +10,7 @@
 .navbar {
     display: flex;
     justify-content: flex-end;
-   
+    background-color: #00203F;
     padding: 15px 30px;
     position: sticky;
     top: 0;
