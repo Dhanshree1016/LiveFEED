@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
             id: "2005",
             email: "raj@gmail.com",
             mobile: "9345678901",
-            photo: "person5.jpg" // Replace with actual image path
+            photo: "raj_malhotra.jpg" // Replace with actual image path
         }
     ];
 
